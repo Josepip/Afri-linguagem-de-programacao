@@ -1,0 +1,15 @@
+ver "--- Iniciando App Afri ---"
+ver "Qual é o preço do produto?"
+receber preco
+
+ver "Quantas unidades queres?"
+receber qtd
+
+total = preco * qtd
+
+se total > 5000 {
+    ver "Valor elevado! Total: " + total
+} senao {
+    ver "Compra autorizada. Total: " + total
+}
+
